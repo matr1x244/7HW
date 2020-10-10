@@ -30,7 +30,7 @@ public class StartTest {
     }
 
     @Test (priority = 2)
-    @AfterSuite
+    //@AfterSuite = если снять комент тогда уйдет в ошибку из-за того что больше двух раз нельзя.
     public void test4(){
 
         System.out.println("Test 4");
@@ -41,5 +41,5 @@ public class StartTest {
 
         System.out.println("Before_test");
     }
-    
+
 }
